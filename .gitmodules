@@ -1,0 +1,9 @@
+[submodule "forms_and_templates"]
+	path = forms_and_templates
+	url = https://github.com/skillstamw/FORMS_AND_TEMPLATES.git
+[submodule "hydra"]
+	path = hydra
+	url = https://github.com/skillstamw/HYDRA.git
+[submodule "sqlite_database_api"]
+	path = sqlite_database_api
+	url = https://github.com/skillstamw/SQLITE_DATABASE_API.git
