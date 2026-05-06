@@ -1,5 +1,6 @@
 def main():
-    print("Hello from blueprint!")
+    print("Manual for blueprint\n")
+    print("scraping a site")
 
 
 if __name__ == "__main__":
