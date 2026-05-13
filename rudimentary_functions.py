@@ -47,28 +47,6 @@ from bs4 import BeautifulSoup
 #     return all_text
 
 
-# def pre_process_scrape(text):
-
-#     text=text.lower().replace('"',"'")
-
-# from datetime import datetime, timezone
-
-# def get_time_stamp():
-#     timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S_%fZ")
-#     return timestamp
-
-
-
-
-
-# def write_formatted_scrape_sequence(file_name:str, 
-#                                     formatted_scrape_sequence):
-#     assert exists(file_name), f"missing file {file_name}"
-
-#     with open(file_name, 'r', encoding='utf-8', errors='ignore') as file:
-#         json.dump(formatted_scrape_sequence, file)
-
-
 
 
 

@@ -5,7 +5,7 @@ from get_time_stamp import get_time_stamp
 import json
 
 def get_formatted_scrape(text:str,
-                 url:str=None,
+                 url:str,
                  scrape_id=uuid4()):
 
     formatted_scrape={"id":str(scrape_id),
@@ -15,3 +15,7 @@ def get_formatted_scrape(text:str,
                         "format_time":get_time_stamp()}
 
     return formatted_scrape
+
+def get_formatted_scrape_file_name(scrape_id:UUID,time_stamp):
+
+    return f"scrape_{str(scrape_id).replace("-","_")}_{time_stamp}.json"

@@ -1,0 +1,4 @@
+import lmstudio as lms
+model = lms.llm("google/gemma-3-4b")
+result = model.respond('Is the following a known definition of uncertainty "\sqrt{\sum_{i=0}^{N} R^{2}}" where R is a residual? if you know a name for this particular definition respond with it otherwise respond with unknown')
+print(result)
